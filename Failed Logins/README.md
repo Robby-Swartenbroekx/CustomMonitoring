@@ -13,8 +13,11 @@ the Automation Manager Policy (.amp) is the raw script I used. It is just a wrap
 
 ## Release Notes
 
-1.0|2021/10/25|Initial Release (25/10/2021)
-1.1|2021/10/25|Changed from Get-EventLog to Get-WinEvent and worked with FilterHashTable to speedup requests even more. I've tested on some servers with multiple Gb's of event logs and went in the most extreme case van 12 minutes to 37 seconds. or on more normal servers from 63,9 seconds to 2,6 seconds
+|Version|Date|Comments|
+|---|---|---|
+|1.0|2021/10/25|Initial Release (25/10/2021)|
+|1.1|2021/10/25|Changed from Get-EventLog to Get-WinEvent and worked with FilterHashTable to speedup requests even more. I've tested on some servers with multiple Gb's of event logs and went in the most extreme case van 12 minutes to 37 seconds. or on more normal servers from 63,9 seconds to 2,6 seconds|
+
 
 ## License
 
